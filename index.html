@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EdulaX</title>
-    <link href="assets/stylesheets/logo_font.css" rel="stylesheet" />
-    <link id="applicationStylesheet" href="assets/stylesheets/styles.css" rel="stylesheet" />
+    <link href="assets/stylesheets/logo_font.css" rel="stylesheet"/>
+    <link id="applicationStylesheet" href="assets/stylesheets/styles.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="assets/javascript/generated.js"></script>
@@ -42,10 +42,12 @@
             </rect>
         </svg>
     </div>
-    <img id="Design" src="assets/images/Design.png" srcset="assets/images/Dassets/images/Design@2x.png Design@2x.png 2x">
+    <img id="Design" src="assets/images/Design.png"
+         srcset="assets/images/Dassets/images/Design@2x.png Design@2x.png 2x">
 
     <div id="iPhone_Body">
-        <img id="iPhone_Body_s" src="assets/images/iPhone_Body_s.png" srcset="assets/images/iPhone_Bassets/images/iPhone_Body_s@2x.png_Body_s@2x.png 2x">
+        <img id="iPhone_Body_s" src="assets/images/iPhone_Body_s.png"
+             srcset="assets/images/iPhone_Bassets/images/iPhone_Body_s@2x.png_Body_s@2x.png 2x">
 
     </div>
 
@@ -92,7 +94,8 @@
             </div>
         </div>
         <div id="Bitmap">
-            <img id="Bitmap_bg" src="assets/images/Bitmap_bg.png" srcset="assets/images/Bitmassets/images/Bitmap_bg@2x.pngtmap_bg@2x.png 2x">
+            <img id="Bitmap_bg" src="assets/images/Bitmap_bg.png"
+                 srcset="assets/images/Bitmassets/images/Bitmap_bg@2x.pngtmap_bg@2x.png 2x">
 
             <svg class="Bitmap_bh">
                 <rect id="Bitmap_bh" rx="0" ry="0" x="0" y="0" width="9" height="5.116">
@@ -309,54 +312,75 @@
             </div>
         </div>
     </div>
-    <div id="Form">
-        <div id="Input_dk">
-            <svg class="Rectangle_dl">
-                <rect id="Rectangle_dl" rx="10" ry="10" x="0" y="0" width="538" height="73">
-                </rect>
-            </svg>
-            <div id="Your_name">
-                <span>Your name</span>
-            </div>
+<!--    <form id="Form" class="form">-->
+
+<!--        <div class="form-control">-->
+<!--            <input id="first_name" placeholder="Your name">-->
+<!--        </div>-->
+<!--        <div id="Input_dk">-->
+<!--            <svg class="Rectangle_dl">-->
+<!--                <rect id="Rectangle_dl" rx="10" ry="10" x="0" y="0" width="538" height="73">-->
+<!--                    <label for="your_name">Your name</label><input id="your_name" placeholder="Your name" type="text"/>-->
+<!--                </rect>-->
+<!--            </svg>-->
+<!--        </div>-->
+
+<!--        <div id="Input_Copy">-->
+<!--            <svg class="Rectangle_dr">-->
+<!--                <rect id="Rectangle_dr" rx="10" ry="10" x="0" y="0" width="538" height="73">-->
+<!--                </rect>-->
+<!--            </svg>-->
+<!--            <div id="Email_address_ds">-->
+<!--                <span>Email address</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div id="Input_Copy_2">-->
+<!--            <svg class="Rectangle_du">-->
+<!--                <rect id="Rectangle_du" rx="10" ry="10" x="0" y="0" width="538" height="73">-->
+<!--                </rect>-->
+<!--            </svg>-->
+<!--            <div id="Subject">-->
+<!--                <span>Subject</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div id="Input_Copy_3">-->
+<!--            <svg class="Rectangle_dx">-->
+<!--                <rect id="Rectangle_dx" rx="10" ry="10" x="0" y="0" width="538" height="154">-->
+<!--                </rect>-->
+<!--            </svg>-->
+<!--            <div id="Write_your_message">>-->
+<!--                <span>Write your message</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <a href="#" onclick="document.getElementById('Form').submit()">-->
+<!--            <div id="Button_dn">-->
+<!--                <svg class="BG_do" viewBox="0 0 539.868 60">-->
+<!--                    <path id="BG_do"-->
+<!--                          d="M 10 0 L 529.867919921875 0 C 535.3907470703125 0 539.867919921875 4.477152347564697 539.867919921875 10 L 539.867919921875 50 C 539.867919921875 55.52284622192383 535.3907470703125 60 529.867919921875 60 L 10 60 C 4.477152347564697 60 0 55.52284622192383 0 50 L 0 10 C 0 4.477152347564697 4.477152347564697 0 10 0 Z">-->
+<!--                    </path>-->
+<!--                </svg>-->
+<!--                <div id="Send_Message">-->
+<!--                    <span>Send Message</span>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--    </form>-->
+    <form id="Form" class="text-center">
+        <div class="mb-3 text-center form-group">
+            <label for="first_name" class="form-label">Your name</label>
+            <input type="text" class="form-control" id="first_name">
         </div>
-        <div id="Button_dn">
-            <svg class="BG_do" viewBox="0 0 539.868 60">
-                <path id="BG_do"
-                      d="M 10 0 L 529.867919921875 0 C 535.3907470703125 0 539.867919921875 4.477152347564697 539.867919921875 10 L 539.867919921875 50 C 539.867919921875 55.52284622192383 535.3907470703125 60 529.867919921875 60 L 10 60 C 4.477152347564697 60 0 55.52284622192383 0 50 L 0 10 C 0 4.477152347564697 4.477152347564697 0 10 0 Z">
-                </path>
-            </svg>
-            <div id="Send_Message">
-                <span>Send Message</span>
-            </div>
+        <div class="mb-3 text-center form-group">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
-        <div id="Input_Copy">
-            <svg class="Rectangle_dr">
-                <rect id="Rectangle_dr" rx="10" ry="10" x="0" y="0" width="538" height="73">
-                </rect>
-            </svg>
-            <div id="Email_address_ds">
-                <span>Email address</span>
-            </div>
+        <div class="mb-3 text-center form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea type="text" name="message" class="form-control" id="message" rows="3"></textarea>
         </div>
-        <div id="Input_Copy_2">
-            <svg class="Rectangle_du">
-                <rect id="Rectangle_du" rx="10" ry="10" x="0" y="0" width="538" height="73">
-                </rect>
-            </svg>
-            <div id="Subject">
-                <span>Subject</span>
-            </div>
-        </div>
-        <div id="Input_Copy_3">
-            <svg class="Rectangle_dx">
-                <rect id="Rectangle_dx" rx="10" ry="10" x="0" y="0" width="538" height="154">
-                </rect>
-            </svg>
-            <div id="Write_your_message">
-                <span>Write your message</span>
-            </div>
-        </div>
-    </div>
+        <button style="background-color: #a31de4; font-size: 2rem" type="submit" class="btn btn-primary border-0">Send Us Message!</button>
+    </form>
     <div id="Info">
         <div id="Group_2">
             <div id="Call_us">
