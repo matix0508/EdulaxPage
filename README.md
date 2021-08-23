@@ -11,16 +11,16 @@
 
 ```
 | - - assets
-|		| - - stylesheets
-|		|		| - - [style.css]
-|		|		| - - [other_style.css]
-|		|		` - - [last_style.css]
-|		| - - javascript
-|		| 		| - - [bundle.js]
-|		|		` - - [send_mail.js]
-|		` - - fonts
-|				| - - [font1.sth] ?
-|				` - - [idk.sth]
+|	| - - stylesheets
+|	|	| - - [style.css]
+|	|	| - - [other_style.css]
+|	|	` - - [last_style.css]
+|	| - - javascript
+|	|	| - - [bundle.js]
+|	|	` - - [send_mail.js]
+|	` - - fonts
+|		| - - [font1.sth] ?
+|		` - - [idk.sth]
 |	
 ` - - index.html
 ```
