@@ -1,7 +1,7 @@
 export default function NavBar(props) {
     return (
 
-        <div className="navbar shadow-lg bg-neutral text-neutral-content">
+        <div className="sticky top-0 z-50 navbar shadow-lg bg-neutral text-neutral-content">
             <div className="px-2 mx-2 navbar-start">
                 <span className="text-lg font-bold">
                     {props.brand}
