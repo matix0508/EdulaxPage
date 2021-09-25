@@ -36,7 +36,13 @@ function App() {
 
             <Welcome />
             <Menu title={"Theme"}>
-                {['light', 'dark', 'cyberpunk', 'cupcake', 'bumblebee', 'emerald'].map((theme) => (
+                {[
+                    'light', 'dark', 'cyberpunk', 'cupcake', 'bumblebee',
+                    'emerald', 'corporate', 'synthwave', 'retro', 'valentine',
+                    'halloween', 'garden', 'forest', 'aqua', 'lofi', 'pastel',
+                    'fantasy', 'wireframe', 'black', 'luxury', 'dracula'
+
+                ].map((theme) => (
                     <MenuItem onClick={() => setTheme(theme)}>{theme}</MenuItem>
                 ))}
 
