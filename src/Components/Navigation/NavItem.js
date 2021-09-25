@@ -1,7 +1,7 @@
 export default function NavItem(props) {
     return (
-        <li>
-            <a href={props.href} className="rounded-btn">{props.children}</a>
-        </li>
+        <a href={props.href} className="btn btn-ghost btn-sm rounded-btn">
+            {props.children}
+        </a>
     )
 }

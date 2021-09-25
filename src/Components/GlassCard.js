@@ -9,9 +9,9 @@ export default function GlassCard(props) {
                 </figure>
                 <div className="max-w-md card-body">
                     <h2 className="card-title text-primary-focus">{props.title}</h2>
-                    <p className={"text-black text-primary-content"}>{props.children}</p>
+                    <p className={"text-black text-primary"}>{props.children}</p>
                     <div className="card-actions">
-                        <button className="btn glass rounded-full text-black">{props.buttonText}</button>
+                        <button className="btn rounded-full text-primary-focus">{props.buttonText}</button>
                     </div>
                 </div>
             </div>

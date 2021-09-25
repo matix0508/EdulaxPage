@@ -30,7 +30,7 @@ export default function Footer(props) {
                 </div>
             </div>
             <div>
-                <p>Copyright © 2021 - All right reserved by ACME Industries Ltd</p>
+                <p>Copyright © 2021 - All right reserved by Edulax.com</p>
             </div>
         </footer>
     )
