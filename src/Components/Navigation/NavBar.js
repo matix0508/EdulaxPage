@@ -14,13 +14,13 @@ export default function NavBar(props) {
                                 </svg>
                             </label>
                         </div>
-                        <div className="px-2 mx-2">
+                        <div className="px-2 mx-2 text-primary">
         <span>
               {props.brand}
             </span>
                         </div>
                         <div className="flex-none hidden lg:block">
-                            <ul className="menu horizontal flex flex-wrap content-start">
+                            <ul className="menu horizontal text-primary">
                                 {props.children}
                             </ul>
                         </div>
@@ -28,7 +28,7 @@ export default function NavBar(props) {
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-3" className="drawer-overlay" />
-                    <ul className="p-4 overflow-y-auto menu w-80 bg-base-100">
+                    <ul className="p-4 overflow-y-auto menu w-80 bg-base-100 text-primary">
                         {props.children}
                     </ul>
                 </div>

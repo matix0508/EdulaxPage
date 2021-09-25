@@ -2,7 +2,7 @@
 
 export default function GlassCard(props) {
     return (
-        <div className="flex items-center w-full px-4 py-10 bg-cover card bg-base-200">
+        <div id={props.id} className="flex items-center w-full px-4 py-10 bg-cover card bg-base-200">
             <div className="card glass lg:card-side text-neutral-content">
                 <figure className="p-6">
                     <img src={props.photo || "https://picsum.photos/id/1005/300/200"} className="rounded-lg shadow-lg" />
