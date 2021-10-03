@@ -24,7 +24,6 @@ function Socials() {
         </SocialMediaContainer>
     )
 }
-
 function App() {
 
     const [theme, setTheme] = useState('light')
