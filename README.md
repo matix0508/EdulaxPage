@@ -1,5 +1,5 @@
 ## Install
-- `npm install`
+- type `npm install` in terminal
 
 ## Run
-- `npm run start`
+- type `npm run start` in terminal
