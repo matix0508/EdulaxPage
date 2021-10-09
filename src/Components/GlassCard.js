@@ -11,7 +11,7 @@ export default function GlassCard(props) {
                     <h2 className="card-title text-primary-focus">{props.title}</h2>
                     <p className={"text-black text-primary"}>{props.children}</p>
                     <div className="card-actions">
-                        <button className="btn rounded-full text-primary-focus">{props.buttonText}</button>
+                        <button className="btn btn-primary text-primary-content">{props.buttonText}</button>
                     </div>
                 </div>
             </div>

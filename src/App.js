@@ -31,7 +31,7 @@ function App() {
     const links = lang === "eng" ? ["Welcome", "About Us", "Contact Us"] : ["Witamy", "O Nas", "Napisz Do Nas"];
     const ids = links.map((link) => link.replace(/ /g, ""))
     return (
-        <div data-theme={theme}>
+        <div data-theme={theme} className={"bg-base-200"}>
             <NavBar lang={lang} changeLang={() => setLang(lang === "eng" ? "pl" : "eng")} brand={"EdulaX"}>
                 {links.map((link) => (
                     <NavItem href={"#" + link.replace(/ /g, "")}>{link}</NavItem>
@@ -66,7 +66,7 @@ function App() {
                     'light', 'dark', 'cyberpunk', 'cupcake', 'bumblebee',
                     'emerald', 'corporate', 'synthwave', 'retro', 'valentine',
                     'halloween', 'garden', 'forest', 'aqua', 'lofi', 'pastel',
-                    'fantasy', 'wireframe', 'black', 'luxury', 'dracula'
+                    'fantasy', 'wireframe', 'black', 'luxury', 'dracula', 'mlight'
 
                 ].map((theme) => (
                     <MenuItem onClick={() => setTheme(theme)}>{theme}</MenuItem>
