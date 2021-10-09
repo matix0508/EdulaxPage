@@ -9,7 +9,7 @@ export default function Footer(props) {
                     <a href={"https://www.facebook.com/EdulaX.io"} className={"fa fa-facebook text-base-200"}>
 
                     </a>
-                    <a href={"#"} className={"fa fa-twitter text-base-200"}>
+                    <a href={"/"} className={"fa fa-twitter text-base-200"}>
 
                     </a>
                     <a href={"https://www.linkedin.com/company/edulax/"} className={"fa fa-linkedin text-base-200"}>

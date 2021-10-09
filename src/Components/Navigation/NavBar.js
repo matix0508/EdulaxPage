@@ -13,6 +13,7 @@ export default function NavBar(props) {
                 </div>
             </div>
             <div className="navbar-end">
+                <button onClick={props.changeTheme} className="btn btn-secondary">{props.theme === "light" ? "Dark Mode" : "Light Mode"}</button>
                 <button onClick={props.changeLang} className="btn btn-primary">{props.lang === 'eng' ? "PL" : "EN"}</button>
             </div>
         </div>

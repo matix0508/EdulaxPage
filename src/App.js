@@ -1,29 +1,12 @@
 import './App.css';
-import SocialMediaContainer from "./Components/SocialMedia/SocialMediaContainer";
-import Facebook from "./Components/SocialMedia/Facebook";
-import Twitter from "./Components/SocialMedia/Twitter";
-import LinkedIn from "./Components/SocialMedia/LinkedIn";
-import GitHub from "./Components/SocialMedia/GitHub";
 import NavBar from "./Components/Navigation/NavBar";
 import NavItem from "./Components/Navigation/NavItem";
 import Footer from "./Components/Footer";
 import GlassCard from "./Components/GlassCard";
 import {useState} from "react";
-import MenuItem from "./Components/MenuItem";
-import Menu from "./Components/Menu";
 import Welcome from "./Components/Welcome";
 import ContactForm from "./Components/ContactForm";
 
-function Socials() {
-    return (
-        <SocialMediaContainer>
-            <Facebook/>
-            <Twitter/>
-            <LinkedIn/>
-            <GitHub/>
-        </SocialMediaContainer>
-    )
-}
 function App() {
 
     const [theme, setTheme] = useState('light')
@@ -32,7 +15,13 @@ function App() {
     const ids = links.map((link) => link.replace(/ /g, ""))
     return (
         <div data-theme={theme} className={"bg-base-200"}>
-            <NavBar lang={lang} changeLang={() => setLang(lang === "eng" ? "pl" : "eng")} brand={"EdulaX"}>
+            <NavBar 
+                lang={lang} 
+                changeLang={() => setLang(lang === "eng" ? "pl" : "eng")} 
+                theme={theme}
+                changeTheme={() => setTheme(theme === "light" ? "dark" : "light")}
+                brand={"EdulaX"}
+            >
                 {links.map((link) => (
                     <NavItem href={"#" + link.replace(/ /g, "")}>{link}</NavItem>
                 ))}
@@ -61,18 +50,6 @@ function App() {
                 </p>
             </GlassCard>
             <ContactForm lang={lang} id={ids[2]}/>
-            <Menu title={"Theme"}>
-                {[
-                    'light', 'dark', 'cyberpunk', 'cupcake', 'bumblebee',
-                    'emerald', 'corporate', 'synthwave', 'retro', 'valentine',
-                    'halloween', 'garden', 'forest', 'aqua', 'lofi', 'pastel',
-                    'fantasy', 'wireframe', 'black', 'luxury', 'dracula', 'mlight'
-
-                ].map((theme) => (
-                    <MenuItem onClick={() => setTheme(theme)}>{theme}</MenuItem>
-                ))}
-
-            </Menu>
             <Footer lang={lang} links={links}/>
 
         </div>
