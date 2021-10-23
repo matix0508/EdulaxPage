@@ -20,59 +20,48 @@ module.exports = {
     themes: [
       {
         'light': {                          /* your theme name */
-           'primary' : '#387aff',           /* Primary color */
-           'primary-focus' : '#003ec3',     /* Primary color - focused */
-           'primary-content' : '#010040',   /* Foreground content color to use on primary color */
+           'primary' : '#363F73',           /* Primary color */
+           'primary-content': '#faf6df',
 
-           'secondary' : '#742eab',         /* Secondary color */
-           'secondary-focus' : '#f3cc30',   /* Secondary color - focused */
-           'secondary-content' : '#ffffff', /* Foreground content color to use on secondary color */
+           'secondary' : '#8C3B68',         /* Secondary color */
+           'secondary-content': '',
 
-           'accent' : '#37cdbe',            /* Accent color */
-           'accent-focus' : '#2aa79b',      /* Accent color - focused */
-           'accent-content' : '#ffffff',    /* Foreground content color to use on accent color */
+           'accent' : '#8c3b68',            /* Accent color */
+           'accent-content': '',
 
-           'neutral' : '#3d4451',           /* Neutral color */
-           'neutral-focus' : '#2a2e37',     /* Neutral color - focused */
-           'neutral-content' : '#ffffff',   /* Foreground content color to use on neutral color */
+           'neutral' : '#F2C8A2',           /* Neutral color */
+           'neutral-content': '#363F73',
 
-           'base-100' : '#ffffff',          /* Base color of page, used for blank backgrounds */
-           'base-200' : '#b3f3fc',          /* Base color, a little darker */
-           'base-300' : '#d1d5db',          /* Base color, even more darker */
-           'base-content' : '#1f2937',      /* Foreground content color to use on base color */
+           'background' : '#faf6df',          /* Base color of page, used for blank backgrounds */
+           'background-content': '#363F73',
 
-           'info' : '#2094f3',              /* Info */
-           'success' : '#009485',           /* Success */
-           'warning' : '#ff9900',           /* Warning */
-           'error' : '#ff5724',             /* Error */
+           'info' : '#F28177',              /* Info */
+           'success' : '',           /* Success */
+           'warning' : '',           /* Warning */
+           'error' : '',             /* Error */
         },
         'dark': {                          /* your theme name */
-          'primary' : '#387aff',           /* Primary color */
-          'primary-focus' : '#003ec3',     /* Primary color - focused */
-          'primary-content' : '#010040',   /* Foreground content color to use on primary color */
+          'primary' : '#625868',           /* Primary color */
+          'primary-content': '#F2C8A2',
 
-          'secondary' : '#742eab',         /* Secondary color */
-          'secondary-focus' : '#f3cc30',   /* Secondary color - focused */
-          'secondary-content' : '#ffffff', /* Foreground content color to use on secondary color */
+          'secondary' : '#8C3B68',         /* Secondary color */
+          'secondary-content': '#F2C8A2',
 
-          'accent' : '#37cdbe',            /* Accent color */
-          'accent-focus' : '#2aa79b',      /* Accent color - focused */
-          'accent-content' : '#ffffff',    /* Foreground content color to use on accent color */
+          'accent' : '#9a6e86',            /* Accent color */
+          'accent-content': '#F2C8A2',
 
-          'neutral' : '#3d4451',           /* Neutral color */
-          'neutral-focus' : '#2a2e37',     /* Neutral color - focused */
-          'neutral-content' : '#ffffff',   /* Foreground content color to use on neutral color */
+          'neutral' : '#4a3656',           /* Neutral color */
+          'neutral-content': '#F2C8A2',
 
-          'base-100' : '#ffffff',          /* Base color of page, used for blank backgrounds */
-          'base-200' : '#000000',          /* Base color, a little darker */
-          'base-300' : '#d1d5db',          /* Base color, even more darker */
-          'base-content' : '#1f2937',      /* Foreground content color to use on base color */
+          'background' : '#222A59',          /* Base color of page, used for blank backgrounds */
+          'background-content': '#F2C8A2',
 
           'info' : '#2094f3',              /* Info */
           'success' : '#009485',           /* Success */
           'warning' : '#ff9900',           /* Warning */
           'error' : '#ff5724',             /* Error */
-       },
+       }
+       
       },
     ],
   },
